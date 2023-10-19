@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Payment Page </title>
+    <link rel="stylesheet" href="checkout_payment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav">
+
+            <img src="./asssets/nav_02.jpg" alt="" class="nav_img">
+        </div>
+
+        <main>
+            <h1>Multen Checkout</h1>
+            
+            <div class="main">
+                <h1>Payment method</h1>
+                <div class="payment">
+                    <img src="./asssets/payments.jpg" alt="" class="payment_img">
+                </div>
+
+                <div class="main_form">
+
+                    <div class="section1">
+                        <form action="">
+                            <label for="">
+                                Full Name: <br>
+                                <span>As it appears on your Credit card</span>
+                            </label>
+                            <input type="text">
+
+                            <br>
+
+                            <label for="">
+                                Credit Card Number:
+                            </label>
+                            <input type="text">
+
+                            <br>
+
+                            <label for="">
+                                CVV Number:
+                            </label>
+                            <input type="text">
+
+                            <br>
+
+                           <label for="">Expiration date:</label> 
+                           <select name="" id="" style="margin-right: 10px;">
+                            <option value="">01</option>
+                           </select>
+                           <select name="" id="" style="margin-right: 55px;">
+                            <option value="">2009</option>
+                           </select>
+                         
+
+
+                        </form>
+                    </div>
+
+                    <div class="section2">
+                        <img src="./asssets/Express_card.jpg" alt="" class="card_img">
+                    </div>
+                </div>
+            </div>
+
+          
+        
+        
+        
+        </main>
+
+        <!-- Product bill -->
+        <div class="prdt_bill">
+            <table class="tab">
+                <thead>
+                    <td>product name</td>
+                    <td>price</td>
+                    <td>qty</td>
+                    <td>total</td>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td style="text-align: left; text-transform: uppercase;">ghost in dark</td>
+                        <td class="price">$12.99</td>
+                        <td class="qty">1</td>
+                        <td class="price">$12.99</td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left; text-transform: uppercase;">iopius</td>
+                        <td class="price">$12.99</td>
+                        <td class="qty">1</td>
+                        <td class="price">$12.99</td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left; text-transform: uppercase;">cool shirt</td>
+                        <td class="price">$12.99</td>
+                        <td class="qty">1</td>
+                        <td class="price">$12.99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <!-- Payment Section -->
+        <div class="pay_section">
+            <!-- <div>
+                <p style="font-size: medium; font-weight: bold;"><< Return to Shopping Cart</p>
+            </div> -->
+
+            <div style="display: flex; justify-content: flex-end;">
+                <div style="width: fit-content;">
+                    <table>
+                        <tr>
+                            <td style="text-align: right;">TAX (8.75% CA Only):</td>
+                            <td class="price" >$3.41</td> 
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: right;">Shipping:</td>
+                            <td class="price">$7.00</td> 
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: right;">Total:</td>
+                            <td class="price">$49.38</td> 
+                        </tr>
+
+                        
+                    </table>
+                    <br>
+                    <button class="pay-btn">order summary</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                <a href="">Track My Order</a> | <a href="">Contact Us</a>
+                <a href="">Browse Categories</a> | <a href="">Create products</a>
+                <a href="">Blog</a> | <a href="">Sitemap</a>,<a href="">tags</a>,
+                <br>
+                <a href=""><img src="./asssets/us.png" alt="" class="icon">United States</a> 
+                <a href=""><img src="./asssets/uk.jpg" alt="" class="icon" style="height: 12px;">United Kingdom</a>
+    
+            </p> 
+    
+            <p id="para">
+                Use of this web site constitues acceptance of the <a href="">User Agreement</a> and <a href="">Privacy Policy</a>
+                <br>
+                copyright 2000-2009,Multen.com.Inc. All rights reserved
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
